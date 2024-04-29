@@ -107,7 +107,7 @@ if __name__ == '__main__':
                             root_path='./dataset/eeg_raw_data',
                             offline_transform=transforms.Lambda(lambda x:applying_ICA(x)),
                             online_transform=transforms.Compose([
-                                transforms.BandDifferentialEntrozpy(band_dict={
+                                transforms.BandDifferentialEntropy(band_dict={
                                             "delta": [1, 4],
                                             "theta": [4, 8],
                                             "alpha": [8, 14],
