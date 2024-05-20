@@ -25,7 +25,7 @@ To utilize this code, please follow these steps:
 python cnn_ica.py
 ```
 ```python
-python dgcnn_ica.py
+python DGCNN_ICA.py
 ```
 
 3. **Run the Tensorboard**: 
